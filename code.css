@@ -1,0 +1,75 @@
+
+/* Styling the Body element i.e. Color,
+Font, Alignment */
+body {
+		background:linear-gradient(to bottom right,rgb(232, 61, 89),rgb(224, 224, 89));
+			font-family: Verdana;
+			text-align: center;
+			background-image: url(pic2.jpg);
+		}
+        h1{
+            text-align: center;
+            color: rgb(1, 16, 15);
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 300%;
+			background-color:whitesmoke;
+        }
+
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			font-family: 'Martian Mono', monospace;
+			background: linear-gradient(to left,lavender,rgb(110, 110, 199));
+			width:70%;
+			margin: 60px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+			font-family:monospace;
+			font-size: x-large;
+			color:black;
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input,
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		button {
+			background-color: blanchedalmond;
+			border: 1px solid black;
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
